@@ -1,5 +1,5 @@
 function hasFlags(args, flags){
-	return flags.every(function(flag){
+	return flags.some(function(flag){
 		return args.indexOf(flag) > -1;
 	});
 }
