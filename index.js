@@ -1,5 +1,7 @@
 function hasFlags(args, flags){
-	return flags.every(args.indexOf.bind(args));
+	return flags.every(function(flag){
+		return args.indexOf(flag) > -1;
+	});
 }
 
 function identity(value){
