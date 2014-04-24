@@ -10,11 +10,11 @@ $ npm install clify
 
 ## API
 
-TBD
+	clify(fn, commands, parseArgs)
 
 ## Usage
 
-TBD
+ * [string-interpolate](https://github.com/alexeyraspopov/string-interpolate/blob/master/cli.js)
 
 ## License
 
