@@ -1,6 +1,6 @@
 {
   "name": "clify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Tiny CLI-wrapper for your functions",
   "license": "MIT",
   "main": "index.js",
