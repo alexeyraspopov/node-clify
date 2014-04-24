@@ -1,8 +1,0 @@
-{
-  "name": "clify",
-  "version": "0.0.1",
-  "description": "Tiny CLI-wrapper for your functions",
-  "license": "MIT",
-  "main": "index.js",
-  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)"
-}
