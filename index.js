@@ -9,7 +9,7 @@ function identity(value){
 }
 
 module.exports = function(fn, commands, parseArgs){
-	var argv = process.argv;
+	var argv = process.argv, result;
 
 	parseArgs = parseArgs || identity;
 
@@ -21,5 +21,9 @@ module.exports = function(fn, commands, parseArgs){
 		return console.log(commands.version);
 	}
 
-	console.log(fn.apply(null, parseArgs(argv)));
+	result = fn.apply(null, parseArgs(argv.slice(2)));
+
+	if(result){
+		console.log(result);
+	}
 };
